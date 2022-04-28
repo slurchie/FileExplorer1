@@ -36,8 +36,8 @@ namespace FileExplorer1
             ext_txt.Text = $".{ext}";
             if (ext == "\\")
             {
-                Text = "New Folder";
-                label1.Text = "Folder name:";
+                Text = "Новая Папка";
+                labelFileName.Text = "Имя Папки:";
             }
 
         }
